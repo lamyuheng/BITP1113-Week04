@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	double price,discount;
+	int quantity, member;
+	bool isMember;
+
+	//Input
+	cout << "Enter the quantity: ";
+	cin >> quantity;
+
+	cout << "Member? (Y/N): ";
+	cin >> member;
+
+	//Process
+
+}
