@@ -2,15 +2,16 @@
 
 /*
 Cal Poly Pseudocode:
-READ balance, toll
-IF balance >= toll THEN
-	SET balance = balance - toll
-	DISPLAY "Gate open"
-	DISPLAY balance
-ELSE
-	DISPLAY "Insufficient funds. Please reload."
-	DISPLAY toll-balance
-ENDIF
+BEGIN	
+	READ balance, toll
+	IF balance >= toll THEN
+		SET balance = balance - toll
+		DISPLAY "Gate open"
+		DISPLAY balance
+	ELSE
+		DISPLAY "Insufficient funds. Please reload."
+		DISPLAY toll-balance
+	ENDIF
 END
 */
 
