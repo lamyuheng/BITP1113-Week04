@@ -11,6 +11,7 @@ ELSE
 	DISPLAY "Insufficient funds. Please reload."
 	DISPLAY toll-balance
 ENDIF
+END
 */
 
 #include <iostream>
